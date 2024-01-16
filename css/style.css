@@ -8,17 +8,25 @@
 .primary-description {
     color: #d66c6c;
     font-family: Mulish;
-    font-size: 16px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
     /* padding: 16px 84px 16px 14px; */
 }
+.primary-title{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
 
 .input-primary {
     color: rgba(19, 19, 24, 0.50);
     font-family: Mulish;
-    font-size: 16px;
+    font-size: 26px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -102,10 +110,28 @@ input {
     gap: 24px;
 }
 
+/* Main container styles */
+
+.container{
+    margin-top: 50px;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.container-info{
+    width: 50%;
 
 
+}
 
-
+.populer-tours-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.tour-description{
+    margin: 30px;
+}
 
 
 
@@ -143,5 +169,18 @@ input {
 
     .input-group input {
         width: 60%;
+    }
+    .populer-tours-container{
+        flex-direction: column;
+        margin: 0px 40px;
+        margin-top: 50px;
+    }
+    .container-info{
+        width: 90%;
+   margin-bottom: 30px;
+    }
+    .tour-img img{
+        width: 95%;
+        margin: 0 auto;
     }
 }
