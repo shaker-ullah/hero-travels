@@ -12,7 +12,7 @@
 }
 
 .primary-description {
-    color: #d66c6c;
+    color: #5A5A5D;
     font-family: Mulish;
     font-size: 24px;
     font-style: normal;
@@ -54,6 +54,8 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
+    border: 0;
+   
 
 }
 
@@ -95,7 +97,7 @@
 
 }
 
-input {
+.search-input {
     width: 174px;
     height: 52px;
     border-radius: 8px;
@@ -181,23 +183,27 @@ input {
     gap: 20px;
 
 }
-#card-1{
+
+#card-1 {
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
 }
-#card-2{
+
+#card-2 {
     border-radius: 16px;
-border: 1px solid rgba(41, 206, 246, 0.20);
-background: rgba(41, 206, 246, 0.05);
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
 }
-#card-3{
+
+#card-3 {
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
-    
+
 }
-.card{
+
+.card {
     width: 700px;
     height: 284px;
     padding: 20px;
@@ -207,29 +213,100 @@ background: rgba(41, 206, 246, 0.05);
     height: 80px;
     width: 80px;
     border-radius: 50%;
-   
+
 
 }
 
 
-.title{
+.title {
     width: 448px;
     font-size: 43px;
 }
-.description{
+
+.description {
     width: 532px;
     margin: 10px 0px;
 }
-ul>li{
+
+ul>li {
     font-size: 24px;
     font-weight: 800;
     margin: 20px 0px;
 }
 
+.place-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
 
 
+/* NewsLetter section  */
+.form-container {
+    width: 50%;
+}
 
+hr {
+    margin: 20px 0px;
+    width: 72%;
+}
 
+.form-input {
+    width: 500px;
+    height: 52px;
+    margin-top: 20px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding-left: 20px;
+    border: 0;
+}
+
+.subscribe {
+    width: 520px;
+    height: 52px;
+    margin-top: 20px;
+    border: 0;
+    font-size: 24px;
+}
+
+.newsletter-container {
+    display: flex;
+}
+
+.save-btn {
+    border: 0;
+    width: 324px;
+    height: 120px;
+    transform: rotate(-28.628deg);
+    position: relative;
+    left: 370px;
+    top: -195px;
+
+}
+.form-img{
+    width: 50%;
+}
+.form-img img{
+    width: 700px;
+
+}
+.save-btn h4 {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 400;
+
+}
+
+.save-btn h4 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+
+}
 
 
 
@@ -269,7 +346,8 @@ ul>li{
         width: 60%;
     }
 
-    .populer-tours-container {
+    .populer-tours-container,
+    .place-container {
         flex-direction: column;
         margin: 0px 40px;
         margin-top: 50px;
@@ -296,22 +374,47 @@ ul>li{
         width: 510px;
     }
 
-    
 
-    .card-container{
+
+    .card-container {
         grid-template-columns: 1fr;
-       
+
         /* margin: 0 20px; */
     }
-    .card{
+
+    .card {
         width: 80%;
         margin: 0 auto;
         padding: 40px 10px;
     }
-    .populer-tours-container{
+
+    .populer-tours-container {
         flex-direction: column;
     }
-    .populer-tours-container ul{
+
+    .populer-tours-container ul {
         padding-left: 18px;
+    }
+    .newsletter-container{
+        flex-direction: column;
+    }
+    .form-container{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .form-input{
+        width: 100%;
+    }
+    .subscribe{
+        width: 100%;
+        margin: 20px auto;
+    }
+    .form-img img{
+        width: 550px;
+        margin-left:20px;
+    }
+    .save-btn{
+        width: 180px;
+        margin-top: 25px;
     }
 }
