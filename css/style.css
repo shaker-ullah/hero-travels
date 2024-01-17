@@ -481,4 +481,10 @@ margin-top: -100px;
         width: 80%;
         text-align: center;
     }
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-link >a{
+        margin: 5px;
+    }
 }
