@@ -8,7 +8,7 @@
 .section {
     max-width: 1500px;
     margin: 0 auto;
-    margin-top: 50px;
+   
 }
 
 .primary-description {
@@ -308,8 +308,47 @@ hr {
 
 }
 
+/* footer styles */
+footer{
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer-container{
+  padding: 40px 0px;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.logo{
+margin-left: 30px;
+}
+span{
+    color: #FF5400;;
+}
+.footer-text{
+  
+    width: 769px;
+    margin: 20px auto;
+}
+.icon{
+    text-align: center;
+   
+}
+.fa-brands{
+    margin-right: 20px;
+    
+}
 
-
+.brack-line{
+    width: 60%;
+    margin: 50px auto;
+}
+.copyright{
+    text-align: center;
+    margin: 30px;
+}
 
 
 
@@ -416,5 +455,12 @@ hr {
     .save-btn{
         width: 180px;
         margin-top: 25px;
+    }
+    footer{
+margin-top: -100px;
+    }
+    .footer-text{
+        width: 80%;
+        text-align: center;
     }
 }
